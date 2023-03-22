@@ -8,7 +8,7 @@ namespace Simran_MCN
 {
     public class Average
     {
-        public void Averagepro() 
+        public void Averagepro()
         {
             int n1, n2, n3;
             n1 = Convert.ToInt32(Console.ReadLine());

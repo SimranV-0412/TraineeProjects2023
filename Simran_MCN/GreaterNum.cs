@@ -26,7 +26,7 @@ namespace Simran_MCN
             {
                 Console.WriteLine("n3 is gratest.");
             }
-        }   
+        }
     }
 
 }

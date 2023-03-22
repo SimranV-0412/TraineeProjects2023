@@ -10,10 +10,10 @@ namespace Simran_MCN
     {
         public void ListPro()
         {
-            List<string> name = new List<string>() { "red","black","blue"};
-            for(int i=0;i<name.Count;i++)
+            List<string> name = new List<string>() { "red", "black", "blue" };
+            for (int i = 0; i < name.Count; i++)
             {
-                Console.WriteLine(name[i]); 
+                Console.WriteLine(name[i]);
             }
             Console.ReadLine();
         }

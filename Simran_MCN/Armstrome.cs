@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Simran_MCN
 {
-     public class Armstrome
+    public class Armstrome
     {
         public void ArmPro()
         {
@@ -20,7 +20,7 @@ namespace Simran_MCN
                 sum = sum + (rem * rem * rem);
                 num = num / 10;
             }
-            if(t==sum)
+            if (t == sum)
             {
                 Console.WriteLine("Armstrong");
             }

@@ -13,7 +13,7 @@ namespace Simran_MCN
             int a = 1, f = 1;
             int b = 5;
             Console.WriteLine("Factorial");
-            while(a<=b)
+            while (a <= b)
             {
                 f = f * a;
                 a++;

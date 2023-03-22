@@ -10,12 +10,12 @@ namespace Simran_MCN
     {
         public int fib(int n)
         {
-            int a=0, b=1,res=0;
+            int a = 0, b = 1, res = 0;
             if (n == 0)
                 return 0;
             if (n == 1)
                 return 1;
-            for( int i=2;i<=n;i++)
+            for (int i = 2; i <= n; i++)
             {
                 res = a + b;
                 a = b;

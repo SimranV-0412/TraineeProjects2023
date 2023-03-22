@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95C2EBE9-6C06-4DD2-8BAC-2F28B1EBAE8C}</ProjectGuid>
+    <ProjectGuid>{5AC4FFAC-6B2A-4776-9DAD-D507C095A08C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Simran_MCN</RootNamespace>
     <AssemblyName>Simran_MCN</AssemblyName>
@@ -43,18 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmstomeDel.cs" />
     <Compile Include="Armstrome.cs" />
     <Compile Include="Average.cs" />
     <Compile Include="DtoB.cs" />
     <Compile Include="Factorial.cs" />
+    <Compile Include="FactorialDel.cs" />
     <Compile Include="FibDelegates.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="GreaterNum.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="Palindome.cs" />
+    <Compile Include="PalindomeDel.cs" />
     <Compile Include="Pattern1.cs" />
     <Compile Include="Pattern2.cs" />
+    <Compile Include="PrimeDel.cs" />
     <Compile Include="PrimeNum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

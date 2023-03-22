@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Simran_MCN
 {
-    public class Palindome
+    public class PalindomeDel
     {
-        public void Palindomepro()
+        public delegate void del(int n);
+        public void Palindome(int n)
         {
-            int n, r, sum = 0, t;
-            Console.WriteLine("enter a number");
-            n = Convert.ToInt32(Console.ReadLine());
+            int r, sum = 0, t;
+
             t = n;
             while (n > 0)
             {
@@ -30,5 +30,14 @@ namespace Simran_MCN
             }
 
         }
+        //public static void Main(string[] args)
+        //{
+        //    PalindomeDel obj = new PalindomeDel();
+        //    del delObj = new del(obj.Palindome);
+        //    Console.WriteLine("enter a number");
+        //    int n = Convert.ToInt32(Console.ReadLine());
+        //    delObj(n);
+        //    Console.ReadLine();
+        //}
     }
 }
